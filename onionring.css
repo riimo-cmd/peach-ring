@@ -1,0 +1,52 @@
+/* onionring.js is made up of four files - onionring-widget.js, onionring-index.js, onionring-variables.js and onionring.css (this one!)
+// it's licensed under the cooperative non-violent license (CNPL) v4+ (https://thufie.lain.haus/NPL.html)
+// it was originally made by joey + mord of allium (蒜) house, last updated 2020-10-24 */
+
+/* === ONIONRING.CSS === */
+/* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,200&display=swap');
+
+#Peach_Ring {
+  margin: 0 auto;
+  padding: 15px; /* creates some space around the widget */
+    background-color: #ffdbd3; /* makes the background match the index */
+      border: 2px solid #dd2e44;
+  border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+}
+
+#Peach_Ring table {
+  margin: 0 auto; /* centers the widget */
+}
+
+#Peach_Ring table tr td {
+  padding: 5px; /* creates some space between the links and text inside the widget */
+}
+
+#Peach_Ring a {
+  color:  #dd2e44;
+  text-decoration: none;
+  }
+  
+#Peach_Ring a:hover{
+  color:  #9b2030;
+  text-decoration: underline dashed;
+  }
+
+#Peach_Ring .webring-prev {
+  text-align:right;
+}
+
+#Peach_Ring .webring-info {
+   text-align:center;
+}
+
+#Peach_Ring .webring-next {
+  text-align:left;
+}
+
+#Peach_Ring .webring-links {
+  font-size:small;
+}

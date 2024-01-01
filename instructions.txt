@@ -1,0 +1,14 @@
+Congrats on joining the peach ring! There's only have a javascript button avalible at this time, however I plan on making an image button ~eventually~. 
+
+Add this code to your <head> tags:
+<link rel="stylesheet" href="https://whiteheartrainbowsoul.neocities.org/peach-ring/onionring.css">
+
+Add this code where you want to put the button:
+<div id='Peach_Ring'>
+<script type="text/javascript" src="https://whiteheartrainbowsoul.neocities.org/peach-ring/onionring-variables.js"></script>
+<script type="text/javascript" src="https://whiteheartrainbowsoul.neocities.org/peach-ring/onionring-widget.js"></script>
+</div>
+
+If you have any questions or if you wish to be removed from the webring, please contact me via the email address listed on the peach ring index page. 
+
+~rin
