@@ -5,14 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peach Ring</title>
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" href="https://whiteheartrainbowsoul.neocities.org/peach-ring/onionring.css">
-<link rel="icon" type="image/x-icon" href="https://whiteheartrainbowsoul.neocities.org/peach-ring/favicon.ico">
+    <link rel="stylesheet" href="https://riimo-cmd.github.io/peach-ring/onionring.css">
+<link rel="icon" type="image/x-icon" href="https://riimo-cmd.github.io/peach-ring/favicon.ico">
 <link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#ffdbd3">
+<meta name="description" content="The Peach Ring is a webring for sites that host food related content. Join today!">
   </head>
   <body>
-    <h1>Welcome to the Peach Ring! 🍑</h1>
+    <h1>Welcome to the Peach Ring!</h1>
     <p>The Peach Ring is a webring for sites that host cooking, baking, and general food related content, including but not limited to, recipes, tips, reviews, tutorials, and food-focused essays.</p>
-    <h2>Want to join?</h2>
+    <h2><a id="join-link" href="#join">Want to join?</a></h2>
+    <h2>Browse the Ring:</h2>
+    <div id='index'>
+<script type="text/javascript" src="https://whiteheartrainbowsoul.neocities.org/peach-ring/onionring-variables.js"></script>
+<script type="text/javascript" src="https://whiteheartrainbowsoul.neocities.org/peach-ring/onionring-index.js"></script>
+</div>
+  <h2>FAQ:</h2>
+  <div class="faq">
+  <button type="button" class="collapsible">How do I join?</button>
+  <div class="content">
+    <p>Click <a href="#join">here</a> and follow the instructions!</p>
+  </div>
+  <button type="button" class="collapsible">Do you have a button?</button>
+  <div class="content">
+    <p>There is only a JavaScript button avalible at the moment.</p>
+  </div>
+  <button type="button" class="collapsible">What if I find a site that violates the rules?</button>
+  <div class="content">
+    <p>Please send me an <a href="mailto:kurohaato@yahoo.com">email</a> and link to the site in question! I'll take a look and message the site admin if they have broken a rule.</p>
+  </div>
+  <button type="button" class="collapsible">What if I don't want to email you? Can I IM you instead?</button>
+  <div class="content">
+    <p>I don't freely give out my Discord, Matrix, or Escargot @'s. You can try to message me on <a href="https://spacehey.com/koinorinrinsignal" target="_blank">SpaceHey</a> if you <strong>really</strong> don't want to email me.</p>
+  </div>
+  <button type="button" class="collapsible">I've sent an email, but you haven't replied!</button>
+  <div class="content">
+    <p>If it's been less than two weeks, please give me time. I'm a student and can't always be online. If it's been longer, send it again! Crabs run my email so they might have accidentally shoved it in my spam folder or just forgot to deliver it all together. <strong>No response doesn't mean you've been rejected</strong>.</p>
+  </div>
+</div>
+  
+  <h2 id="join">Want to join?</h2>
     <p>Send an email to <a href=mailto:kurohaato@yahoo.com>kurohaato@yahoo.com</a> with the subject line "Peach Ring" and the following information:</p>
     <div class="box">
       <ul>
@@ -31,10 +63,20 @@
         <li>Content must be hosted by the site. Simply linking to your allrecipies does not count. Exceptions for external embeds will be made on a case-by-case basis.</li>
         <li>Sites that host content relating to alchohol will be allowed into the webring on a case-by-case basis.</li>      </ul>
 <p>If your site URL stops working, the widget is removed from your site, or if you start hosting content that violates the rules of the webring, you will be emailed via the address you orignally used to apply. If there is no reply for a month, your site will be removed from the webring.</p>
-    <h2>Browse the Ring:</h2>
-    <div id='index'>
-<script type="text/javascript" src="https://whiteheartrainbowsoul.neocities.org/peach-ring/onionring-variables.js"></script>
-<script type="text/javascript" src="https://whiteheartrainbowsoul.neocities.org/peach-ring/onionring-index.js"></script>
-</div>
+        <script>
+        var coll = document.getElementsByClassName("collapsible");
+          var i;
+          
+          for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function() {
+              this.classList.toggle("active");
+              var content = this.nextElementSibling;
+              if (content.style.display === "block") {
+                content.style.display = "none";
+              } else {
+                content.style.display = "block";
+              }
+            });
+          }</script>
   </body>
 </html>
