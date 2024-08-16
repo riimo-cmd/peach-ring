@@ -8,7 +8,8 @@
 //the full URLs of all the sites in the ring
 var sites = [
 'https://whiteheartrainbowsoul.neocities.org',
-'https://transrats.neocities.org'
+'https://transrats.neocities.org',
+'https://onlywonder.net'
 ];
 
 //the name of the ring
