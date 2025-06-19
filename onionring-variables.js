@@ -10,7 +10,7 @@ var sites = [
 'https://whiteheartrainbowsoul.neocities.org',
 'https://transrats.neocities.org',
 'https://onlywonder.net',
- 'https://ayouchoco.glitch.me/plats.html'
+ 'https://ayouchoco.glitch.me'
 ];
 
 //the name of the ring
